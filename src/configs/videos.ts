@@ -33,7 +33,6 @@ export const parseUtilityVideo = (fileName: string): UtilityVideo => {
   };
 
   callout.text = [
-    callout.map,
     callout.utility,
     "from",
     human(callout.from),
